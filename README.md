@@ -1,11 +1,11 @@
 # PES2UG22CS620_633_640_646_Load-Balanced-URL-Shortener-using-Docker-Kubernetes
-Project Overview
+# Project Overview
 
 This project is a scalable and containerized URL shortener service that allows users to submit long URLs and get a shortened version. The system is designed using Docker and Kubernetes, with a load balancer to distribute incoming traffic efficiently across multiple instances of the service.
 
 The URL mappings are stored in an in-memory key-value store running in a separate container. The system is built to handle high availability and scalability with auto-scaling and monitoring features.
 
-Features
+# Features
 
 Shorten URLs: Accept long URLs via an API and generate short URLs.
 
@@ -21,7 +21,7 @@ Load Balancing: Uses Ingress Controller / LoadBalancer to distribute traffic eff
 
 Monitoring: Logs and metrics collection to observe system performance.
 
-Technologies Used
+# Technologies Used
 
 Backend: Python (Flask) or Node.js (Express.js)
 
@@ -37,7 +37,7 @@ Monitoring & Logging: Kubernetes logging tools, Prometheus (optional)
 
 CI/CD (Optional): GitHub Actions / Jenkins
 
-Kubernetes Components
+# Kubernetes Components
 
 1. Deployment & Services
 
@@ -57,7 +57,7 @@ Ingress Controller for Load Balancing
 
 Logging using kubectl logs and monitoring tools
 
-Future Enhancements
+# Future Enhancements
 
 Persistent Storage: Use a database like PostgreSQL or MongoDB instead of Redis.
 
@@ -67,7 +67,7 @@ Enhanced Security: Implement JWT authentication and rate limiting.
 
 Cloud Deployment: Deploy on AWS EKS, Google GKE, or Azure AKS.
 
-Contributors
+# Contributors
 
 Taranjot Singh Dhingra - PES2UG22CS620 
 Tushar Swami - PES2UG22CS633
