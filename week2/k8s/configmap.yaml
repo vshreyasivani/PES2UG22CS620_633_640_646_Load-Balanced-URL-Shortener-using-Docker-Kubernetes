@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: url-shortener-config
+data:
+  SHORT_DOMAIN: "$(minikube ip):32671"  # Will generate links like http://192.168.49.2:32671/short/abc123
+  MAX_URL_LENGTH: "2048"
+  FLASK_ENV: "production"  # Recommended addition
