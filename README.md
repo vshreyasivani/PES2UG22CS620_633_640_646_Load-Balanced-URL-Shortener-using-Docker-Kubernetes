@@ -23,19 +23,18 @@ Monitoring: Logs and metrics collection to observe system performance.
 
 # Technologies Used
 
-Backend: Python (Flask) or Node.js (Express.js)
+Backend: Python (Flask) 
 
-Database: Redis (In-memory key-value store) [Optionally replaceable with PostgreSQL/MongoDB]
+Database: Redis (In-memory key-value store) 
 
 Containerization: Docker
 
 Orchestration & Scaling: Kubernetes
 
-Networking: Kubernetes LoadBalancer, ClusterIP, Ingress
+Networking: Kubernetes LoadBalancer, ClusterIP
 
-Monitoring & Logging: Kubernetes logging tools, Prometheus (optional)
+Monitoring & Logging: Kubernetes logging tools
 
-CI/CD (Optional): GitHub Actions / Jenkins
 
 # Kubernetes Components
 
@@ -47,7 +46,7 @@ Key-Value Store Pod (Stores shortened URLs)
 
 ClusterIP Service (Exposes Redis internally)
 
-LoadBalancer/Ingress (Exposes URL shortener to external users)
+LoadBalancer (Exposes URL shortener to external users)
 
 2. Scaling & Monitoring
 
