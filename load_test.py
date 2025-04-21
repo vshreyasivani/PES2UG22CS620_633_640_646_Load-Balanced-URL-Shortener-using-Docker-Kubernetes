@@ -2,8 +2,8 @@ import requests
 import concurrent.futures
 import time
 
-URL = "http://localhost:8080/shorten"
-payload = {"url": "https://example.com"}
+URL = "http://localhost:5000/shorten"
+payload = {"url": "https://en.wikipedia.org/wiki/Artificial_intelligence"}
 
 def send_request():
     try:
